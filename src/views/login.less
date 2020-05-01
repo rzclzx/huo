@@ -1,0 +1,103 @@
+.login{
+    width: 100%;
+    min-width: 1366px;
+    height: 100%;
+    background-image: url('../assets/images/login-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    .logo {
+        width: 280px;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: 45px;
+        background: url('../assets/images/mgt-logo.png');
+        background-size: 100% 100%;
+    }
+    .ivu-form-item-label {
+        font-size: 14px;
+        color: #fff!important;
+        &::before {
+            display: none;
+        }
+    }
+    .ivu-form-item-error-tip {
+        display: inline-block;
+        top: 50%;
+        right: -15px;
+        transform: translate(100%, -50%);
+        font-size: 12px;
+        color: #F54B4B;
+    }
+    .ivu-form-item-required .ivu-form-item-label:before {
+        display: none;
+    }
+    .login-input {
+        display: inline-block;
+        width: 400px;
+        height: 44px;
+        border-radius: 2px;
+        input {
+            height: 100%;
+            background: rgba(119,138,227,.15);
+            border: 1px solid rgba(62,88,211,.4);
+            border-radius: 2px;
+            padding-left: 15px;
+            font-size: 14px;
+            color: #96A9FF;
+            &::-webkit-input-placeholder { /* WebKit browsers */
+                color: #72769C;
+            }
+            &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                color: #72769C;
+            }
+            &::-moz-placeholder { /* Mozilla Firefox 19+ */
+                color: #72769C;
+            }
+            &:-ms-input-placeholder { /* Internet Explorer 10+ */
+                color: #72769C;
+            }
+            &:focus, &:active, &:hover{
+                border: 1px solid rgba(62,88,211,.7);
+                box-shadow: none;
+            }
+        }
+    }
+    .login-btn {
+        width: 200px;
+        height: 40px;
+        margin-top: 25px;
+        background: #3E58D3;
+        border: 0;
+        border-radius: 1px;
+        font-size: 14px;
+        color: #EFF5FB;
+        &.disabled {
+            background: #28368A;
+        }
+        &:active {
+            background: #28368A;
+        }
+    }
+    &-con{
+        position: absolute;
+        right: 20%;
+        top: 50%;
+        transform: translateY(-60%);
+        // width: 300px;
+        &-header{
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .form-con{
+            padding: 10px 0 0;
+        }
+        .login-tip{
+            font-size: 10px;
+            text-align: center;
+            color: #c3c3c3;
+        }
+    }
+}

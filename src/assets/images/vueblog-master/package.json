@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/component-cache": "^1.1.0",
     "@nuxtjs/pwa": "^2.0.3",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "cross-env": "^5.0.1",

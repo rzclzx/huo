@@ -24,7 +24,7 @@
     "moment": "^2.20.1",
     "polyfills": "^2.1.1",
     "style-loader": "^0.19.1",
-    "tinymce": "^4.7.4",
+    "tinymce": "^5.9.0",
     "vue": "^2.5.2",
     "vue-i18n": "^7.3.3",
     "vue-momentjs": "^0.1.1",

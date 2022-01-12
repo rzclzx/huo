@@ -22,7 +22,7 @@
     "formidable": "^1.1.1",
     "highlight.js": "^9.12.0",
     "jsonwebtoken": "^8.1.0",
-    "markdown-it": "^8.4.0",
+    "markdown-it": "^12.3.2",
     "mongodb": "^2.2.26",
     "normalize.css": "^7.0.0",
     "nuxt": "^1.0.0-rc3",
